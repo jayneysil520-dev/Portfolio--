@@ -27,8 +27,9 @@ const SpotlightLink: React.FC<{ text: string; href: string; onClick?: (e: React.
                 href={href}
                 onClick={onClick}
                 onMouseMove={handleMouseMove}
-                className="relative px-4 py-2 text-xs font-bold tracking-widest cursor-pointer block group overflow-hidden rounded-lg text-black"
-                whileHover={{ opacity: 1 }}
+                // 🟢 UPDATED: Font size text-[10px], Color text-gray-600
+                className="relative px-4 py-2 text-[10px] font-bold tracking-widest cursor-pointer block group overflow-hidden rounded-lg text-gray-600"
+                whileHover={{ opacity: 1, color: "#000000" }} // Darken on hover
             >
                 {/* Spotlight Gradient Background - Zero React Renders */}
                 <motion.div 
@@ -125,7 +126,8 @@ const Navbar: React.FC = () => {
                     onClick={(e) => handleScroll(e, "#contact")}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="ml-4 px-6 py-2 text-xs font-bold tracking-widest text-black border border-black/10 rounded-full backdrop-blur-md bg-white/30 shadow-sm hover:bg-white/50 transition-all block"
+                    // 🟢 UPDATED: Font size text-[10px], Color text-gray-600
+                    className="ml-4 px-6 py-2 text-[10px] font-bold tracking-widest text-gray-600 border border-black/10 rounded-full backdrop-blur-md bg-white/30 shadow-sm hover:bg-white/50 transition-all block hover:text-black"
                 >
                     <span>CONTACT</span>
                 </motion.a>
