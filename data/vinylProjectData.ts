@@ -334,7 +334,8 @@ export const PROJECTS_DATA = [
               scale: 1,
               introConfig: {
                   text: '01\nDAILY OF DESIGNER\n\nA glimpse into\nthe creative process.',
-                  x: -350, // 🟢 Increased Negative X (Moved Left Away from Card)
+                  // 🟢 MOVED FURTHER LEFT: -250 -> -350
+                  x: -210, 
                   y: 100, 
                   rotate: 0,
                   fontSize: '14px',
@@ -355,7 +356,8 @@ export const PROJECTS_DATA = [
               scale: 1,
               introConfig: {
                   text: '02\nTOKYO RUN\n\nAbstract visual\nlanguage simulation.',
-                  x: -300, // 🟢 Increased Negative X
+                  // 🟢 MOVED FURTHER LEFT: -200 -> -300
+                  x: -200, 
                   y: 200,
                   rotate: -5,
                   fontSize: '16px',
@@ -377,7 +379,8 @@ export const PROJECTS_DATA = [
               scale: 1,
               introConfig: {
                   text: '03\nMOONLIGHT\n\nVan Gogh inspired\nmotion dreams.',
-                  x: -320, // 🟢 Increased Negative X
+                  // 🟢 MOVED FURTHER LEFT: -220 -> -320
+                  x: -190, 
                   y: 150,
                   rotate: 0,
                   fontSize: '14px',
@@ -399,7 +402,8 @@ export const PROJECTS_DATA = [
               scale: 1,
               introConfig: {
                   text: '04\n2  6k.  m e  r\n\n我害怕黄昏带走我的清醒 所以疯狂的摇动手电 对抗压来的阴影\n子弹穿过我的腹腔 种植出动人的玫瑰 流血的意义 是为了清晨的诞生.',
-                  x: -280, // 🟢 Increased Negative X
+                  // 🟢 MOVED FURTHER LEFT: -180 -> -280
+                  x: -180, 
                   y: 300,
                   rotate: 5,
                   fontSize: '12px',

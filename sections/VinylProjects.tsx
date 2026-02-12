@@ -883,7 +883,7 @@ const HorizontalScrollGallery: React.FC<{ items: any[]; color: string }> = ({ it
             e.preventDefault();
             
             // 🟢 INCREASED SCROLL SPEED MULTIPLIER
-            const SCROLL_SPEED_MULTIPLIER = 2.5; 
+            const SCROLL_SPEED_MULTIPLIER = 1.5; 
             el.scrollLeft += e.deltaY * SCROLL_SPEED_MULTIPLIER;
         };
 
