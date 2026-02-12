@@ -5,6 +5,8 @@
 
 
 
+
+
 // 🔒 LOCKED DATA: USER CONFIGURATION
 // Please do not overwrite this file with placeholder data in future updates.
 
@@ -332,7 +334,7 @@ export const PROJECTS_DATA = [
               scale: 1,
               introConfig: {
                   text: '01\nDAILY OF DESIGNER\n\nA glimpse into\nthe creative process.',
-                  x: -250, 
+                  x: -350, // 🟢 Increased Negative X (Moved Left Away from Card)
                   y: 100, 
                   rotate: 0,
                   fontSize: '14px',
@@ -353,7 +355,7 @@ export const PROJECTS_DATA = [
               scale: 1,
               introConfig: {
                   text: '02\nTOKYO RUN\n\nAbstract visual\nlanguage simulation.',
-                  x: -200,
+                  x: -300, // 🟢 Increased Negative X
                   y: 200,
                   rotate: -5,
                   fontSize: '16px',
@@ -375,7 +377,7 @@ export const PROJECTS_DATA = [
               scale: 1,
               introConfig: {
                   text: '03\nMOONLIGHT\n\nVan Gogh inspired\nmotion dreams.',
-                  x: -215,
+                  x: -320, // 🟢 Increased Negative X
                   y: 150,
                   rotate: 0,
                   fontSize: '14px',
@@ -397,7 +399,7 @@ export const PROJECTS_DATA = [
               scale: 1,
               introConfig: {
                   text: '04\n2  6k.  m e  r\n\n我害怕黄昏带走我的清醒 所以疯狂的摇动手电 对抗压来的阴影\n子弹穿过我的腹腔 种植出动人的玫瑰 流血的意义 是为了清晨的诞生.',
-                  x: -165,
+                  x: -280, // 🟢 Increased Negative X
                   y: 300,
                   rotate: 5,
                   fontSize: '12px',

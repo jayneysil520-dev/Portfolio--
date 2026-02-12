@@ -51,7 +51,8 @@ const PROJECT_TINTS: Record<number, { id: string; r: number; g: number; b: numbe
 const PROJECT_1_HOVER_CONFIG = [
     {
         id: 'p1-slide-1',
-        url: 'https://raw.githubusercontent.com/jayneysil520-dev/jayneysil/refs/heads/main/%E9%95%BF%E5%9B%BE/%E7%8B%90%E7%8B%B8%E5%92%8C%E5%85%94%E5%AD%90.png',
+        // 🇨🇳 CHINA OPTIMIZATION: Replaced raw.githubusercontent with jsd.cdn.zzko.cn
+        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E9%95%BF%E5%9B%BE/%E7%8B%90%E7%8B%B8%E5%92%8C%E5%85%94%E5%AD%90.png',
         x: 50,      
         y: 20,     
         scale: 1.25,  
@@ -62,7 +63,7 @@ const PROJECT_1_HOVER_CONFIG = [
     },
     {
         id: 'p1-slide-2',
-        url: 'https://raw.githubusercontent.com/jayneysil520-dev/jayneysil/refs/heads/main/remain/%E4%B8%8A%E4%BE%A7.png',
+        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png',
         x: 950,      
         y: 80,       
         scale: 5,
@@ -73,7 +74,7 @@ const PROJECT_1_HOVER_CONFIG = [
     },
     {
         id: 'p1-slide-3',
-        url: 'https://raw.githubusercontent.com/jayneysil520-dev/jayneysil/refs/heads/main/remain/%E4%B8%8B%E4%BE%A7.png',
+        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png',
         x: 400,      
         y: 80,       
         scale: 3.5,
@@ -84,7 +85,7 @@ const PROJECT_1_HOVER_CONFIG = [
     },
     {
         id: 'p1-slide-4',
-        url: 'https://raw.githubusercontent.com/jayneysil520-dev/jayneysil/refs/heads/main/remain/%E5%B7%A6%E4%BE%A7.png',
+        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
         x: 860,      
         y: 80,       
         scale: 3.5,
@@ -95,7 +96,7 @@ const PROJECT_1_HOVER_CONFIG = [
     },
     {
         id: 'p1-slide-5',
-        url: 'https://raw.githubusercontent.com/jayneysil520-dev/jayneysil/refs/heads/main/remain/%E5%B7%A6%E4%BE%A7.png',
+        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
         x: 800,      
         y: 80,       
         scale: 3.5,
@@ -153,7 +154,8 @@ const PROJECT_2_HOVER_CONFIG = [
     },
     {
         id: 'p2-char',
-        url: 'https://raw.githubusercontent.com/jayneysil520-dev/jayneysil/refs/heads/main/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/%E8%9B%8B%E4%BB%94%E4%BA%BA%E7%89%A91.png',
+        // 🇨🇳 CHINA OPTIMIZATION
+        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/%E8%9B%8B%E4%BB%94%E4%BA%BA%E7%89%A91.png',
         x: -61,
         y: -300,      // Center
         scale: 0.8, // Large central figure
@@ -170,7 +172,19 @@ const PROJECT_3_HOVER_CONFIG = [
     { id: 'p3-2', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1250, y: 450, scale: 3.2, rotate: 20, zIndex: 4, z: -75, delay: 0.15 }, // Bottom Right Low
     { id: 'p3-3', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -50, y: 50, scale: 2.8, rotate: -10, zIndex: 4, z: -75, delay: 0.2 },   // Extreme Left
     { id: 'p3-4', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png', x: 950, y: -50, scale: 2.8, rotate: 10, zIndex: 4, z: -75, delay: 0.25 },   // Extreme Right
-    { id: 'p3-5', url: 'https://raw.githubusercontent.com/jayneysil520-dev/jayneysil/refs/heads/main/%E7%8C%BF%E7%BC%96%E7%A8%8B/%E7%8C%B4%E5%AD%90.png', x: -364, y: -50, scale: 0.7, rotate: -10, zIndex: 4, z: -74, delay: 0.25, noTint: true },
+    { 
+        id: 'p3-5', 
+        // 🇨🇳 CHINA OPTIMIZATION
+        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E7%8C%BF%E7%BC%96%E7%A8%8B/%E7%8C%B4%E5%AD%90.png', 
+        x: -364, 
+        y: -50, 
+        scale: 0.7, 
+        rotate: -10, 
+        zIndex: 4, 
+        z: -74, 
+        delay: 0.25, 
+        noTint: true 
+    },
 ];
 
 const PROJECT_4_HOVER_CONFIG = [
@@ -178,7 +192,19 @@ const PROJECT_4_HOVER_CONFIG = [
     { id: 'p4-2', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 0, y: 500, scale: 3.5, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },     // Bottom Center
     { id: 'p4-3', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -850, y: 100, scale: 4.0, rotate: -90, zIndex: 4, z: -75, delay: 0.2 },  // Extreme Left
     { id: 'p4-4', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png', x: 850, y: 100, scale: 4.0, rotate: 90, zIndex: 4, z: -75, delay: 0.2 },   // Extreme Right
-    { id: 'p4-5', url: 'https://raw.githubusercontent.com/jayneysil520-dev/jayneysil/refs/heads/main/%E5%8D%AB%E5%B2%97/%E5%A4%A7%E5%8D%AB1.png', x: 50, y: -200, scale: 1.0, rotate: 0, zIndex: 4, z: -74, delay: 0.25, noTint: true },
+    { 
+        id: 'p4-5', 
+        // 🇨🇳 CHINA OPTIMIZATION
+        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E5%8D%AB%E5%B2%97/%E5%A4%A7%E5%8D%AB1.png', 
+        x: 50, 
+        y: -200, 
+        scale: 1.0, 
+        rotate: 0, 
+        zIndex: 4, 
+        z: -74, 
+        delay: 0.25, 
+        noTint: true 
+    },
 ];
 
 const PROJECT_5_HOVER_CONFIG = [
@@ -186,14 +212,26 @@ const PROJECT_5_HOVER_CONFIG = [
     { id: 'p5-2', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1800, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.15 },
     { id: 'p5-3', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 860, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.2 },
     { id: 'p5-4', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 800, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.25 },
-    { id: 'p5-5', url: 'https://raw.githubusercontent.com/jayneysil520-dev/jayneysil/refs/heads/main/nezha/%E5%93%AA%E5%90%92.png', x: 0, y: -450, scale: 0.7, rotate: 0, zIndex: 4, z: -76, delay: 0.25, noTint: true },
+    { 
+        id: 'p5-5', 
+        // 🇨🇳 CHINA OPTIMIZATION
+        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/nezha/%E5%93%AA%E5%90%92.png', 
+        x: 0, 
+        y: -450, 
+        scale: 0.7, 
+        rotate: 0, 
+        zIndex: 4, 
+        z: -76, 
+        delay: 0.25, 
+        noTint: true 
+    },
 ];
 
 const PROJECT_6_HOVER_CONFIG = [
     { id: 'p6-1', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 0, y: -380, scale: 3, rotate: 180, zIndex: 4, z: -75, delay: 0.1 },
     { id: 'p6-2', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 0, y: 380, scale: 3, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },
     { id: 'p6-3', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -600, y: -100, scale: 2.8, rotate: -45, zIndex: 4, z: -75, delay: 0.2 },
-    { id: 'p6-4', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png', x: 600, y: 100, scale: 2.8, rotate: 45, zIndex: 4, z: -75, delay: 0.2 },
+    { id: 'p6-4', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 600, y: 100, scale: 2.8, rotate: 45, zIndex: 4, z: -75, delay: 0.2 },
 ];
 
 const PROJECT_7_HOVER_CONFIG = [
@@ -832,21 +870,72 @@ const FlipVideoCard: React.FC<{
 const HorizontalScrollGallery: React.FC<{ items: any[]; color: string }> = ({ items, color }) => {
     // 🟢 Needs to manage active video index
     const [activeVideoIndex, setActiveVideoIndex] = useState<number | null>(null);
+    const scrollRef = useRef<HTMLDivElement>(null);
+
+    // 🟢 Enable Horizontal Scroll via Mouse Wheel with INCREASED SPEED
+    useEffect(() => {
+        const el = scrollRef.current;
+        if (!el) return;
+
+        const onWheel = (e: WheelEvent) => {
+            if (e.deltaY === 0) return;
+            // If scrolling vertically, translate to horizontal scroll
+            e.preventDefault();
+            
+            // 🟢 INCREASED SCROLL SPEED MULTIPLIER
+            const SCROLL_SPEED_MULTIPLIER = 2.5; 
+            el.scrollLeft += e.deltaY * SCROLL_SPEED_MULTIPLIER;
+        };
+
+        el.addEventListener('wheel', onWheel, { passive: false });
+        return () => el.removeEventListener('wheel', onWheel);
+    }, []);
 
     return (
-        <div className="w-full h-full overflow-x-auto overflow-y-hidden whitespace-nowrap p-10 flex items-center gap-20">
-            {items.map((item, index) => (
-                <div key={item.id} className="inline-block align-middle">
-                    <FlipVideoCard 
-                        item={item} 
-                        index={index} 
-                        color={color}
-                        activeVideoIndex={activeVideoIndex}
-                        setActiveVideoIndex={setActiveVideoIndex}
-                    />
+        <div className="relative w-full h-full bg-black overflow-hidden flex flex-col justify-center">
+            
+            {/* 🟢 SCROLLABLE AREA - EVERYTHING IS NOW IN FLOW */}
+            <div 
+                ref={scrollRef}
+                className="w-full h-full overflow-x-auto overflow-y-hidden whitespace-nowrap flex items-center floating-scrollbar"
+                style={{ scrollBehavior: 'auto' }} // Changed to 'auto' for direct wheel control
+            >
+                {/* 1. Large Left Spacer (Padding) */}
+                {/* 🟢 Ensures big black space on the left */}
+                <div className="w-[15vw] shrink-0 inline-block h-full" /> 
+
+                {/* 2. Title Section (Now flows with scroll) */}
+                {/* 🟢 INCREASED MARGIN RIGHT TO PUSH CARDS FURTHER AWAY */}
+                <div className="inline-block align-middle mr-[25vw] shrink-0">
+                     <div className="flex flex-col justify-center px-4">
+                        <h2 className="text-5xl md:text-7xl font-albert-black text-white leading-none mb-6 tracking-tight">
+                            VIDEO<br/>GALLERY
+                        </h2>
+                        {/* Decorative Line */}
+                        <div className="w-12 h-1 mb-6" style={{ backgroundColor: color }} /> 
+                        <p className="text-gray-400 text-sm font-albert-light leading-relaxed max-w-xs whitespace-normal">
+                            Scroll down to explore the collection. Click cards to view videos.
+                        </p>
+                     </div>
                 </div>
-            ))}
-            <div className="w-40 shrink-0 inline-block" /> 
+
+                {/* 3. Cards */}
+                {items.map((item, index) => (
+                    <div 
+                        key={item.id} 
+                        // 🟢 INCREASED MARGIN: mr-48 -> mr-80 (Significant increase)
+                        className="inline-block align-middle mr-80 last:mr-40 pt-20 pb-20"
+                    >
+                        <FlipVideoCard 
+                            item={item} 
+                            index={index} 
+                            color={color}
+                            activeVideoIndex={activeVideoIndex}
+                            setActiveVideoIndex={setActiveVideoIndex}
+                        />
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };
@@ -1619,16 +1708,22 @@ const VinylProjects: React.FC = () => {
              <style>{`
                 .floating-scrollbar::-webkit-scrollbar {
                     width: 6px;
+                    height: 6px; /* Added height for horizontal scrollbar */
                 }
                 .floating-scrollbar::-webkit-scrollbar-track {
-                    background: transparent; /* Invisible Track */
+                    background: transparent; 
                 }
                 .floating-scrollbar::-webkit-scrollbar-thumb {
-                    background-color: rgba(255, 255, 255, 0.4); /* Visible Thumb */
+                    background-color: rgba(255, 255, 255, 0.3); /* Slightly more visible */
                     border-radius: 99px;
                 }
                 .floating-scrollbar::-webkit-scrollbar-thumb:hover {
-                    background-color: rgba(255, 255, 255, 0.6);
+                    background-color: rgba(255, 255, 255, 0.5);
+                }
+                /* For Firefox */
+                .floating-scrollbar {
+                    scrollbar-width: thin;
+                    scrollbar-color: rgba(255,255,255,0.3) transparent;
                 }
              `}</style>
              
