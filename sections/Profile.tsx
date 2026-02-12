@@ -413,7 +413,7 @@ const StablePhoto: React.FC = () => {
                 <div className="w-full h-full relative overflow-hidden rounded-[1.5rem] bg-gray-100 transform-style-3d">
                     <img 
                         // 🟢 Updated to China CDN
-                        src="https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/Group%20508.png" 
+                        src="https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E6%88%91%E8%87%AA%E5%B7%B1.png" 
                         alt="Profile" 
                         className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700 ease-out will-change-filter"
                         decoding="async"
