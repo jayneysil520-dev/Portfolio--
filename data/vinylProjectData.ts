@@ -190,7 +190,7 @@ export const PROJECTS_DATA = [
             { id: 3, url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/%E5%8D%A1%E7%89%873.png', y: -620 },
             { id: 4, url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/%E5%8D%A1%E7%89%874.png', y: -1080 },
             { id: 5, url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/%E5%8D%A1%E7%89%875.png', y: -1800 },
-            { id: 6, url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/%E5%8D%A1%E7%89%876.png', y: -2580 },
+            { id: 6, url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/%E5%8D%A1%E7%89%876-3-10.png', y: -2580 },
             { id: 7, url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/%E5%8D%A1%E7%89%877-2.png', y: -3430 },
             { id: 8, url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/%E5%8D%A1%E7%89%878.png', y: -3770 },
         ],
@@ -239,7 +239,7 @@ export const PROJECTS_DATA = [
         cardBorder: 'rgba(0,0,0,0.1)'
       },
       layout: 'gallery',
-      detailImages: ['https://raw.githubusercontent.com/jayneysil520-dev/jayneysil/refs/heads/main/%E7%8C%BF%E7%BC%96%E7%A8%8B/%E7%8C%BF%E7%BC%96%E7%A8%8B%E9%95%BF%E5%9B%BE%E6%9B%B4%E6%96%B03-10.png'],
+      detailImages: ['https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E7%8C%BF%E7%BC%96%E7%A8%8B/%E7%8C%BF%E7%BC%96%E7%A8%8B%E9%95%BF%E5%9B%BE%E6%9B%B4%E6%96%B03-10.png'],
       detailText: { main: 'Yuan', sub: '运营设计 OPERATION DESIGN', signature: 'Tutor' }
   },
   { 
