@@ -239,7 +239,7 @@ export const PROJECTS_DATA = [
         cardBorder: 'rgba(0,0,0,0.1)'
       },
       layout: 'gallery',
-      detailImages: ['https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E7%8C%BF%E7%BC%96%E7%A8%8B/%E7%8C%BF%E7%BC%96%E7%A8%8B%E9%95%BF%E5%9B%BE1.jpg'],
+      detailImages: ['https://raw.githubusercontent.com/jayneysil520-dev/jayneysil/refs/heads/main/%E7%8C%BF%E7%BC%96%E7%A8%8B/%E7%8C%BF%E7%BC%96%E7%A8%8B%E9%95%BF%E5%9B%BE%E6%9B%B4%E6%96%B03-10.png'],
       detailText: { main: 'Yuan', sub: '运营设计 OPERATION DESIGN', signature: 'Tutor' }
   },
   { 
