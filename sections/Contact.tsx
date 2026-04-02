@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform, useSpring, useMotionValue, useMotionTe
 // 🟢 👇 PASTE YOUR WECHAT QR CODE IMAGE LINK HERE
 // 您可以在这里替换您的微信二维码图片链接
 // 🟢 FIX: 使用国内镜像链接
-const WECHAT_QR_CODE_URL = "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/%E6%88%91%E7%9A%84%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg";
+const WECHAT_QR_CODE_URL = "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/%E6%88%91%E7%9A%84%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg";
 
 // --- ICONS ---
 const ICONS = {

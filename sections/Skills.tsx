@@ -33,7 +33,7 @@ const skills = [
         percentText: "92%", 
         color: "#F59E0B", 
         tags: "运营设计, 平面设计, 品牌设计",
-        previewImg: "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260108181225_278_2.jpg",
+        previewImg: "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260108181225_278_2.jpg",
         previewRotate: -6,
         previewText: "HELLO?"
     },
@@ -44,7 +44,7 @@ const skills = [
         percentText: "87%", 
         color: "#3B82F6", 
         tags: "LIBLIB, Comfy UI, Web UI",
-        previewImg: "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/capa-grass.png",
+        previewImg: "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/capa-grass.png",
         previewRotate: 8,
         previewText: "GRASS"
     },
@@ -55,7 +55,7 @@ const skills = [
         percentText: "82%", 
         color: "#EA580C", 
         tags: "C4D, Blender, Rendering",
-        previewImg: "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/capa-%E7%99%BD%E7%BE%8A.png",
+        previewImg: "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/capa-%E7%99%BD%E7%BE%8A.png",
         previewRotate: -12,
         previewText: "Myself"
     },
@@ -66,7 +66,7 @@ const skills = [
         percentText: "80%", 
         color: "#8B5CF6", 
         tags: "After Effects, Premiere Pro",
-        videoUrl: "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/1%E6%9C%889%E6%97%A5.mp4",
+        videoUrl: "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/1%E6%9C%889%E6%97%A5.mp4",
         previewRotate: 5,
         previewText: "Tokyo Run"
     },
@@ -78,8 +78,8 @@ const skills = [
 const softwares = [
     { 
         name: 'Fig', 
-        // 🇨🇳 CHINA OPTIMIZATION: Using fastly.jsdelivr.net mirror
-        iconUrl: 'https://fastly.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg', 
+        // 🇨🇳 CHINA OPTIMIZATION: Using cdn.jsdmirror.com mirror
+        iconUrl: 'https://cdn.jsdmirror.com/gh/devicons/devicon/icons/figma/figma-original.svg', 
         color: '#F24E1E', 
         previewRotate: 15, 
         y: 0,
@@ -88,8 +88,8 @@ const softwares = [
     }, 
     { 
         name: 'Ps', 
-        // 🇨🇳 CHINA OPTIMIZATION: Using fastly.jsdelivr.net mirror
-        iconUrl: 'https://fastly.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg', 
+        // 🇨🇳 CHINA OPTIMIZATION: Using cdn.jsdmirror.com mirror
+        iconUrl: 'https://cdn.jsdmirror.com/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg', 
         color: '#31A8FF', 
         previewRotate: -10, 
         y: 5,
@@ -97,8 +97,8 @@ const softwares = [
     }, 
     { 
         name: 'Ai', 
-        // 🇨🇳 CHINA OPTIMIZATION: Using fastly.jsdelivr.net mirror
-        iconUrl: 'https://fastly.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg', 
+        // 🇨🇳 CHINA OPTIMIZATION: Using cdn.jsdmirror.com mirror
+        iconUrl: 'https://cdn.jsdmirror.com/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg', 
         color: '#FF9A00', 
         previewRotate: 8, 
         y: -2,
@@ -106,8 +106,8 @@ const softwares = [
     }, 
     { 
         name: 'Ae', 
-        // 🇨🇳 CHINA OPTIMIZATION: Using fastly.jsdelivr.net mirror
-        iconUrl: 'https://fastly.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg', 
+        // 🇨🇳 CHINA OPTIMIZATION: Using cdn.jsdmirror.com mirror
+        iconUrl: 'https://cdn.jsdmirror.com/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg', 
         color: '#9999FF', 
         previewRotate: -15, 
         y: 12,
@@ -115,8 +115,8 @@ const softwares = [
     }, 
     { 
         name: 'Bl', 
-        // 🇨🇳 CHINA OPTIMIZATION: Using fastly.jsdelivr.net mirror
-        iconUrl: 'https://fastly.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg', 
+        // 🇨🇳 CHINA OPTIMIZATION: Using cdn.jsdmirror.com mirror
+        iconUrl: 'https://cdn.jsdmirror.com/gh/devicons/devicon/icons/blender/blender-original.svg', 
         color: '#F5792A', 
         previewRotate: 12, 
         y: -2,
@@ -124,7 +124,7 @@ const softwares = [
     }, 
     { 
         name: 'C4D', 
-        iconUrl: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/1197px-C4D_Logo.png', 
+        iconUrl: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/1197px-C4D_Logo.png', 
         color: '#2A55F5', 
         previewRotate: -8, 
         y: 6,
@@ -448,7 +448,7 @@ const Skills: React.FC = () => {
                     transition={{ delay: 1, type: "spring" }}
                 >
                      <img 
-                        src="https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/mouse-render.png" 
+                        src="https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/mouse-render.png" 
                         onError={(e) => { e.currentTarget.src = "https://cdn-icons-png.flaticon.com/512/9684/9684876.png" }}
                         alt="Mouse" 
                         className="w-full drop-shadow-xl"

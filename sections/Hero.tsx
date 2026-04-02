@@ -50,55 +50,55 @@ const heroCards = [
       color: '#FF7F27', 
       rotate: -2,      // 🟢 Strong tilt left
       scale: 1.4,       // 🟢 Biggest
-      img: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/1.png'
+      img: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/1.png'
   }, 
   { 
       id: 2, 
       color: '#00A2E8', 
       rotate: 8,        // 🟢 Tilt right
       scale: 1.2,      // 🟢 Large
-      img: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/2.png'
+      img: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/2.png'
   }, 
   { 
       id: 3, 
       color: '#55FFFF', 
       rotate: 24,       // 🟢 Strong tilt right
       scale: 1.15,       // 🟢 Medium-Large
-      img: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/%E7%8C%BF%E8%BE%85%E5%AF%BC%E5%B0%81%E9%9D%A2.png'
+      img: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/%E7%8C%BF%E8%BE%85%E5%AF%BC%E5%B0%81%E9%9D%A2.png'
   }, 
   {   id: 4, 
       color: '#E0221E', 
       rotate: 12,       // 🟢 Almost straight
       scale: 1.1,      // 🟢 Medium
-      img: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/%E5%8D%AB%E5%B2%97/%E5%B0%81%E9%9D%A2%E5%9B%BE.png'
+      img: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/%E5%8D%AB%E5%B2%97/%E5%B0%81%E9%9D%A2%E5%9B%BE.png'
   }, 
   { 
       id: 5, 
       color: '#E0221E', 
       rotate: 2,      // 🟢 Extreme tilt left
       scale: 1.0,      // 🟢 Medium
-      img: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/nezha/%E5%93%AA%E5%90%92%E6%B5%B7%E8%B4%BC%E7%8E%8B.png' 
+      img: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/nezha/%E5%93%AA%E5%90%92%E6%B5%B7%E8%B4%BC%E7%8E%8B.png' 
   }, 
   { 
       id: 6, 
       color: '#0044BA', 
       rotate: 15,       // 🟢 Moderate tilt right
       scale: 0.9,       // 🟢 Small
-      img: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/animation/%E8%A7%86%E9%A2%91%E5%B0%81%E9%9D%A2.png'
+      img: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/animation/%E8%A7%86%E9%A2%91%E5%B0%81%E9%9D%A2.png'
   },
   { 
       id: 7, 
       color: '#AA88EE', 
       rotate: -15,       // 🟢 Extreme tilt right
       scale: 0.95,      // 🟢 Smallest
-      img: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/animation/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2026-02-02_223917_470.jpg'
+      img: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/animation/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2026-02-02_223917_470.jpg'
   },
   { 
       id: 8, 
       color: '#4ECDC4', 
       rotate: -15,      // 🟢 Background tilt
       scale: 0.01,       // 🟢 Small
-      img: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/animation/Group%20951.png'
+      img: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/animation/Group%20951.png'
   }
 ];
 
@@ -112,7 +112,7 @@ const DEPTHS = {
 
 const ImageRevealHeroTitle: React.FC = () => {
     const [isHovered, setIsHovered] = useState(false);
-    const REVEAL_IMAGE = "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/%E6%88%91%E8%87%AA%E5%B7%B1.png";
+    const REVEAL_IMAGE = "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/%E6%88%91%E8%87%AA%E5%B7%B1.png";
 
     return (
         <div 

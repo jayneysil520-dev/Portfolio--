@@ -3,44 +3,44 @@ import React, { useRef, useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // --- 音乐播放列表配置 ---
-// FIX: Using fastly.jsdelivr.net for China accessibility and speed
+// FIX: Using cdn.jsdmirror.com for China accessibility and speed
 // Replaced all raw.githubusercontent.com links with CDN mirrors
 const ORIGINAL_PLAYLIST = [
     {
         title: "Head in the clouds",
-        url: "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/1.mp3" 
+        url: "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/1.mp3" 
     },
     {
         title: "Un Amico", 
-        url: "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/2.mp3" 
+        url: "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/2.mp3" 
     },
     {
         title: "Death bed",
-        url: "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/3.mp3"
+        url: "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/3.mp3"
     },
     {
         title: "Luv(sic.)pt3", 
-        url: "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/4.mp3" 
+        url: "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/4.mp3" 
     },
     {
         title: "Repeat until death", 
-        url: "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/5.mp3" 
+        url: "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/5.mp3" 
     },
     {
         title: "The Void", 
-        url: "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/music/6.mp3" 
+        url: "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/music/6.mp3" 
     },
     {
         title: "Come Here", 
-        url: "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/music/8.mp3" 
+        url: "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/music/8.mp3" 
     },
     {
         title: "空とぶ宅急便", 
-        url: "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/music/9.mp3" 
+        url: "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/music/9.mp3" 
     },
     {
         title: "你听得到——编曲", 
-        url: "https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/music/13.mp3" 
+        url: "https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/music/13.mp3" 
     },
 ];
 

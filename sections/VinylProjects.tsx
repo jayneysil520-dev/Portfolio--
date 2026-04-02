@@ -51,8 +51,8 @@ const PROJECT_TINTS: Record<number, { id: string; r: number; g: number; b: numbe
 const PROJECT_1_HOVER_CONFIG = [
     {
         id: 'p1-slide-1',
-        // 🇨🇳 CHINA OPTIMIZATION: Replaced raw.githubusercontent with fastly.jsdelivr.net
-        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/%E9%95%BF%E5%9B%BE/%E7%8B%90%E7%8B%B8%E5%92%8C%E5%85%94%E5%AD%90.png',
+        // 🇨🇳 CHINA OPTIMIZATION: Replaced raw.githubusercontent with cdn.jsdmirror.com
+        url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/%E9%95%BF%E5%9B%BE/%E7%8B%90%E7%8B%B8%E5%92%8C%E5%85%94%E5%AD%90.png',
         x: 50,      
         y: 20,     
         scale: 1.25,  
@@ -63,7 +63,7 @@ const PROJECT_1_HOVER_CONFIG = [
     },
     {
         id: 'p1-slide-2',
-        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png',
+        url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png',
         x: 950,      
         y: 80,       
         scale: 5,
@@ -74,7 +74,7 @@ const PROJECT_1_HOVER_CONFIG = [
     },
     {
         id: 'p1-slide-3',
-        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png',
+        url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png',
         x: 400,      
         y: 80,       
         scale: 3.5,
@@ -85,7 +85,7 @@ const PROJECT_1_HOVER_CONFIG = [
     },
     {
         id: 'p1-slide-4',
-        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
+        url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
         x: 860,      
         y: 80,       
         scale: 3.5,
@@ -96,7 +96,7 @@ const PROJECT_1_HOVER_CONFIG = [
     },
     {
         id: 'p1-slide-5',
-        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
+        url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
         x: 800,      
         y: 80,       
         scale: 3.5,
@@ -110,7 +110,7 @@ const PROJECT_1_HOVER_CONFIG = [
 const PROJECT_2_HOVER_CONFIG = [
     {
         id: 'p2-top',
-        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png',
+        url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png',
         x: 1300,      
         y: -350,   // Top
         scale: 3,
@@ -121,7 +121,7 @@ const PROJECT_2_HOVER_CONFIG = [
     },
     {
         id: 'p2-bottom',
-        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png',
+        url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png',
         x: 100,      
         y: 350,    // Bottom
         scale: 3,
@@ -132,7 +132,7 @@ const PROJECT_2_HOVER_CONFIG = [
     },
     {
         id: 'p2-left',
-        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
+        url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
         x: -600,      
         y: 0,      // Left
         scale: 3,
@@ -143,7 +143,7 @@ const PROJECT_2_HOVER_CONFIG = [
     },
     {
         id: 'p2-right',
-        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png',
+        url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png',
         x: 400,      
         y: 0,      // Right
         scale: 3,
@@ -155,7 +155,7 @@ const PROJECT_2_HOVER_CONFIG = [
     {
         id: 'p2-char',
         // 🇨🇳 CHINA OPTIMIZATION
-        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/%E8%9B%8B%E4%BB%94%E4%BA%BA%E7%89%A91.png',
+        url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/%E8%9B%8B%E4%BB%94%E4%BA%BA%E7%89%A91.png',
         x: -61,
         y: -300,      // Center
         scale: 0.8, // Large central figure
@@ -168,14 +168,14 @@ const PROJECT_2_HOVER_CONFIG = [
 ];
 
 const PROJECT_3_HOVER_CONFIG = [
-    { id: 'p3-1', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: -450, y: -450, scale: 3.2, rotate: -20, zIndex: 4, z: -75, delay: 0.1 },  // Top Left High
-    { id: 'p3-2', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1250, y: 450, scale: 3.2, rotate: 20, zIndex: 4, z: -75, delay: 0.15 }, // Bottom Right Low
-    { id: 'p3-3', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -50, y: 50, scale: 2.8, rotate: -10, zIndex: 4, z: -75, delay: 0.2 },   // Extreme Left
-    { id: 'p3-4', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png', x: 950, y: -50, scale: 2.8, rotate: 10, zIndex: 4, z: -75, delay: 0.25 },   // Extreme Right
+    { id: 'p3-1', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: -450, y: -450, scale: 3.2, rotate: -20, zIndex: 4, z: -75, delay: 0.1 },  // Top Left High
+    { id: 'p3-2', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1250, y: 450, scale: 3.2, rotate: 20, zIndex: 4, z: -75, delay: 0.15 }, // Bottom Right Low
+    { id: 'p3-3', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -50, y: 50, scale: 2.8, rotate: -10, zIndex: 4, z: -75, delay: 0.2 },   // Extreme Left
+    { id: 'p3-4', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png', x: 950, y: -50, scale: 2.8, rotate: 10, zIndex: 4, z: -75, delay: 0.25 },   // Extreme Right
     { 
         id: 'p3-5', 
         // 🇨🇳 CHINA OPTIMIZATION
-        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/%E7%8C%BF%E7%BC%96%E7%A8%8B/%E7%8C%B4%E5%AD%90.png', 
+        url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/%E7%8C%B1%E7%BC%96%E7%A8%8B/%E7%8C%B4%E5%AD%90.png', 
         x: -364, 
         y: -50, 
         scale: 0.7, 
@@ -188,14 +188,14 @@ const PROJECT_3_HOVER_CONFIG = [
 ];
 
 const PROJECT_4_HOVER_CONFIG = [
-    { id: 'p4-1', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 0, y: -500, scale: 3.5, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },    // Top Center
-    { id: 'p4-2', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 0, y: 500, scale: 3.5, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },     // Bottom Center
-    { id: 'p4-3', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -850, y: 100, scale: 4.0, rotate: -90, zIndex: 4, z: -75, delay: 0.2 },  // Extreme Left
-    { id: 'p4-4', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png', x: 850, y: 100, scale: 4.0, rotate: 90, zIndex: 4, z: -75, delay: 0.2 },   // Extreme Right
+    { id: 'p4-1', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 0, y: -500, scale: 3.5, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },    // Top Center
+    { id: 'p4-2', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 0, y: 500, scale: 3.5, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },     // Bottom Center
+    { id: 'p4-3', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -850, y: 100, scale: 4.0, rotate: -90, zIndex: 4, z: -75, delay: 0.2 },  // Extreme Left
+    { id: 'p4-4', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png', x: 850, y: 100, scale: 4.0, rotate: 90, zIndex: 4, z: -75, delay: 0.2 },   // Extreme Right
     { 
         id: 'p4-5', 
         // 🇨🇳 CHINA OPTIMIZATION
-        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/%E5%8D%AB%E5%B2%97/%E5%A4%A7%E5%8D%AB1.png', 
+        url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/%E5%8D%AB%E5%B2%97/%E5%A4%A7%E5%8D%AB1.png', 
         x: 50, 
         y: -200, 
         scale: 1.0, 
@@ -208,14 +208,14 @@ const PROJECT_4_HOVER_CONFIG = [
 ];
 
 const PROJECT_5_HOVER_CONFIG = [
-    { id: 'p5-1', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 950, y: 80, scale: 5, rotate: 2, zIndex: 2, z: -75, delay: 0.1 },
-    { id: 'p5-2', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1800, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.15 },
-    { id: 'p5-3', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 860, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.2 },
-    { id: 'p5-4', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 800, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.25 },
+    { id: 'p5-1', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 950, y: 80, scale: 5, rotate: 2, zIndex: 2, z: -75, delay: 0.1 },
+    { id: 'p5-2', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1800, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.15 },
+    { id: 'p5-3', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 860, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.2 },
+    { id: 'p5-4', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 800, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.25 },
     { 
         id: 'p5-5', 
         // 🇨🇳 CHINA OPTIMIZATION
-        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/nezha/%E5%93%AA%E5%90%92.png', 
+        url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/nezha/%E5%93%AA%E5%90%92.png', 
         x: 0, 
         y: -450, 
         scale: 0.7, 
@@ -228,24 +228,24 @@ const PROJECT_5_HOVER_CONFIG = [
 ];
 
 const PROJECT_6_HOVER_CONFIG = [
-    { id: 'p6-1', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 0, y: -380, scale: 3, rotate: 180, zIndex: 4, z: -75, delay: 0.1 },
-    { id: 'p6-2', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 0, y: 380, scale: 3, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },
-    { id: 'p6-3', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -600, y: -100, scale: 2.8, rotate: -45, zIndex: 4, z: -75, delay: 0.2 },
-    { id: 'p6-4', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 600, y: 100, scale: 2.8, rotate: 45, zIndex: 4, z: -75, delay: 0.2 },
+    { id: 'p6-1', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 0, y: -380, scale: 3, rotate: 180, zIndex: 4, z: -75, delay: 0.1 },
+    { id: 'p6-2', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 0, y: 380, scale: 3, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },
+    { id: 'p6-3', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -600, y: -100, scale: 2.8, rotate: -45, zIndex: 4, z: -75, delay: 0.2 },
+    { id: 'p6-4', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 600, y: 100, scale: 2.8, rotate: 45, zIndex: 4, z: -75, delay: 0.2 },
 ];
 
 const PROJECT_7_HOVER_CONFIG = [
-    { id: 'p7-1', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 1200, y: -450, scale: 3.8, rotate: 20, zIndex: 4, z: -75, delay: 0.1 },   // Extreme Top Right
-    { id: 'p7-2', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: -400, y: 450, scale: 3.8, rotate: -20, zIndex: 4, z: -75, delay: 0.1 },  // Extreme Bottom Left
-    { id: 'p7-3', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 50, y: 150, scale: 3.0, rotate: -10, zIndex: 4, z: -75, delay: 0.2 },   // Mid Left
-    { id: 'p7-4', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 750, y: -150, scale: 3.0, rotate: 10, zIndex: 4, z: -75, delay: 0.2 },    // Mid Right
+    { id: 'p7-1', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 1200, y: -450, scale: 3.8, rotate: 20, zIndex: 4, z: -75, delay: 0.1 },   // Extreme Top Right
+    { id: 'p7-2', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: -400, y: 450, scale: 3.8, rotate: -20, zIndex: 4, z: -75, delay: 0.1 },  // Extreme Bottom Left
+    { id: 'p7-3', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 50, y: 150, scale: 3.0, rotate: -10, zIndex: 4, z: -75, delay: 0.2 },   // Mid Left
+    { id: 'p7-4', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 750, y: -150, scale: 3.0, rotate: 10, zIndex: 4, z: -75, delay: 0.2 },    // Mid Right
 ];
 
 const PROJECT_8_HOVER_CONFIG = [
-    { id: 'p8-1', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 0, y: -350, scale: 3.0, rotate: -30, zIndex: 4, z: -75, delay: 0.1 }, // Top Left
-    { id: 'p8-2', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1400, y: 350, scale: 3.0, rotate: -30, zIndex: 4, z: -75, delay: 0.1 },  // Bottom Right
-    { id: 'p8-3', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 0, y: 350, scale: 3.0, rotate: 30, zIndex: 4, z: -75, delay: 0.2 },   // Bottom Left
-    { id: 'p8-4', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 1400, y: -350, scale: 3.0, rotate: 30, zIndex: 4, z: -75, delay: 0.2 },   // Top Right
+    { id: 'p8-1', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 0, y: -350, scale: 3.0, rotate: -30, zIndex: 4, z: -75, delay: 0.1 }, // Top Left
+    { id: 'p8-2', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1400, y: 350, scale: 3.0, rotate: -30, zIndex: 4, z: -75, delay: 0.1 },  // Bottom Right
+    { id: 'p8-3', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 0, y: 350, scale: 3.0, rotate: 30, zIndex: 4, z: -75, delay: 0.2 },   // Bottom Left
+    { id: 'p8-4', url: 'https://cdn.jsdmirror.com/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 1400, y: -350, scale: 3.0, rotate: 30, zIndex: 4, z: -75, delay: 0.2 },   // Top Right
 ];
 
 // 🔒 LOCKED DATA END --------------------------------------
