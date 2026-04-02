@@ -51,8 +51,8 @@ const PROJECT_TINTS: Record<number, { id: string; r: number; g: number; b: numbe
 const PROJECT_1_HOVER_CONFIG = [
     {
         id: 'p1-slide-1',
-        // 🇨🇳 CHINA OPTIMIZATION: Replaced raw.githubusercontent with jsd.cdn.zzko.cn
-        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E9%95%BF%E5%9B%BE/%E7%8B%90%E7%8B%B8%E5%92%8C%E5%85%94%E5%AD%90.png',
+        // 🇨🇳 CHINA OPTIMIZATION: Replaced raw.githubusercontent with fastly.jsdelivr.net
+        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/%E9%95%BF%E5%9B%BE/%E7%8B%90%E7%8B%B8%E5%92%8C%E5%85%94%E5%AD%90.png',
         x: 50,      
         y: 20,     
         scale: 1.25,  
@@ -63,7 +63,7 @@ const PROJECT_1_HOVER_CONFIG = [
     },
     {
         id: 'p1-slide-2',
-        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png',
+        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png',
         x: 950,      
         y: 80,       
         scale: 5,
@@ -74,7 +74,7 @@ const PROJECT_1_HOVER_CONFIG = [
     },
     {
         id: 'p1-slide-3',
-        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png',
+        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png',
         x: 400,      
         y: 80,       
         scale: 3.5,
@@ -85,7 +85,7 @@ const PROJECT_1_HOVER_CONFIG = [
     },
     {
         id: 'p1-slide-4',
-        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
+        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
         x: 860,      
         y: 80,       
         scale: 3.5,
@@ -96,7 +96,7 @@ const PROJECT_1_HOVER_CONFIG = [
     },
     {
         id: 'p1-slide-5',
-        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
+        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
         x: 800,      
         y: 80,       
         scale: 3.5,
@@ -110,7 +110,7 @@ const PROJECT_1_HOVER_CONFIG = [
 const PROJECT_2_HOVER_CONFIG = [
     {
         id: 'p2-top',
-        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png',
+        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png',
         x: 1300,      
         y: -350,   // Top
         scale: 3,
@@ -121,7 +121,7 @@ const PROJECT_2_HOVER_CONFIG = [
     },
     {
         id: 'p2-bottom',
-        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png',
+        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png',
         x: 100,      
         y: 350,    // Bottom
         scale: 3,
@@ -132,7 +132,7 @@ const PROJECT_2_HOVER_CONFIG = [
     },
     {
         id: 'p2-left',
-        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
+        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png',
         x: -600,      
         y: 0,      // Left
         scale: 3,
@@ -143,7 +143,7 @@ const PROJECT_2_HOVER_CONFIG = [
     },
     {
         id: 'p2-right',
-        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png',
+        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png',
         x: 400,      
         y: 0,      // Right
         scale: 3,
@@ -155,7 +155,7 @@ const PROJECT_2_HOVER_CONFIG = [
     {
         id: 'p2-char',
         // 🇨🇳 CHINA OPTIMIZATION
-        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/%E8%9B%8B%E4%BB%94%E4%BA%BA%E7%89%A91.png',
+        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/%E8%9B%8B%E4%BB%94%E6%B4%BE%E5%AF%B9/%E8%9B%8B%E4%BB%94%E4%BA%BA%E7%89%A91.png',
         x: -61,
         y: -300,      // Center
         scale: 0.8, // Large central figure
@@ -168,14 +168,14 @@ const PROJECT_2_HOVER_CONFIG = [
 ];
 
 const PROJECT_3_HOVER_CONFIG = [
-    { id: 'p3-1', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: -450, y: -450, scale: 3.2, rotate: -20, zIndex: 4, z: -75, delay: 0.1 },  // Top Left High
-    { id: 'p3-2', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1250, y: 450, scale: 3.2, rotate: 20, zIndex: 4, z: -75, delay: 0.15 }, // Bottom Right Low
-    { id: 'p3-3', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -50, y: 50, scale: 2.8, rotate: -10, zIndex: 4, z: -75, delay: 0.2 },   // Extreme Left
-    { id: 'p3-4', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png', x: 950, y: -50, scale: 2.8, rotate: 10, zIndex: 4, z: -75, delay: 0.25 },   // Extreme Right
+    { id: 'p3-1', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: -450, y: -450, scale: 3.2, rotate: -20, zIndex: 4, z: -75, delay: 0.1 },  // Top Left High
+    { id: 'p3-2', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1250, y: 450, scale: 3.2, rotate: 20, zIndex: 4, z: -75, delay: 0.15 }, // Bottom Right Low
+    { id: 'p3-3', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -50, y: 50, scale: 2.8, rotate: -10, zIndex: 4, z: -75, delay: 0.2 },   // Extreme Left
+    { id: 'p3-4', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png', x: 950, y: -50, scale: 2.8, rotate: 10, zIndex: 4, z: -75, delay: 0.25 },   // Extreme Right
     { 
         id: 'p3-5', 
         // 🇨🇳 CHINA OPTIMIZATION
-        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E7%8C%BF%E7%BC%96%E7%A8%8B/%E7%8C%B4%E5%AD%90.png', 
+        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/%E7%8C%BF%E7%BC%96%E7%A8%8B/%E7%8C%B4%E5%AD%90.png', 
         x: -364, 
         y: -50, 
         scale: 0.7, 
@@ -188,14 +188,14 @@ const PROJECT_3_HOVER_CONFIG = [
 ];
 
 const PROJECT_4_HOVER_CONFIG = [
-    { id: 'p4-1', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 0, y: -500, scale: 3.5, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },    // Top Center
-    { id: 'p4-2', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 0, y: 500, scale: 3.5, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },     // Bottom Center
-    { id: 'p4-3', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -850, y: 100, scale: 4.0, rotate: -90, zIndex: 4, z: -75, delay: 0.2 },  // Extreme Left
-    { id: 'p4-4', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png', x: 850, y: 100, scale: 4.0, rotate: 90, zIndex: 4, z: -75, delay: 0.2 },   // Extreme Right
+    { id: 'p4-1', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 0, y: -500, scale: 3.5, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },    // Top Center
+    { id: 'p4-2', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 0, y: 500, scale: 3.5, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },     // Bottom Center
+    { id: 'p4-3', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -850, y: 100, scale: 4.0, rotate: -90, zIndex: 4, z: -75, delay: 0.2 },  // Extreme Left
+    { id: 'p4-4', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%8F%B3%E4%BE%A7.png', x: 850, y: 100, scale: 4.0, rotate: 90, zIndex: 4, z: -75, delay: 0.2 },   // Extreme Right
     { 
         id: 'p4-5', 
         // 🇨🇳 CHINA OPTIMIZATION
-        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/%E5%8D%AB%E5%B2%97/%E5%A4%A7%E5%8D%AB1.png', 
+        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/%E5%8D%AB%E5%B2%97/%E5%A4%A7%E5%8D%AB1.png', 
         x: 50, 
         y: -200, 
         scale: 1.0, 
@@ -208,14 +208,14 @@ const PROJECT_4_HOVER_CONFIG = [
 ];
 
 const PROJECT_5_HOVER_CONFIG = [
-    { id: 'p5-1', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 950, y: 80, scale: 5, rotate: 2, zIndex: 2, z: -75, delay: 0.1 },
-    { id: 'p5-2', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1800, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.15 },
-    { id: 'p5-3', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 860, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.2 },
-    { id: 'p5-4', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 800, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.25 },
+    { id: 'p5-1', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 950, y: 80, scale: 5, rotate: 2, zIndex: 2, z: -75, delay: 0.1 },
+    { id: 'p5-2', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1800, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.15 },
+    { id: 'p5-3', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 860, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.2 },
+    { id: 'p5-4', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 800, y: 80, scale: 3.5, rotate: 2, zIndex: 4, z: -75, delay: 0.25 },
     { 
         id: 'p5-5', 
         // 🇨🇳 CHINA OPTIMIZATION
-        url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/nezha/%E5%93%AA%E5%90%92.png', 
+        url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/nezha/%E5%93%AA%E5%90%92.png', 
         x: 0, 
         y: -450, 
         scale: 0.7, 
@@ -228,24 +228,24 @@ const PROJECT_5_HOVER_CONFIG = [
 ];
 
 const PROJECT_6_HOVER_CONFIG = [
-    { id: 'p6-1', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 0, y: -380, scale: 3, rotate: 180, zIndex: 4, z: -75, delay: 0.1 },
-    { id: 'p6-2', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 0, y: 380, scale: 3, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },
-    { id: 'p6-3', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -600, y: -100, scale: 2.8, rotate: -45, zIndex: 4, z: -75, delay: 0.2 },
-    { id: 'p6-4', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 600, y: 100, scale: 2.8, rotate: 45, zIndex: 4, z: -75, delay: 0.2 },
+    { id: 'p6-1', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 0, y: -380, scale: 3, rotate: 180, zIndex: 4, z: -75, delay: 0.1 },
+    { id: 'p6-2', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 0, y: 380, scale: 3, rotate: 0, zIndex: 4, z: -75, delay: 0.1 },
+    { id: 'p6-3', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: -600, y: -100, scale: 2.8, rotate: -45, zIndex: 4, z: -75, delay: 0.2 },
+    { id: 'p6-4', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 600, y: 100, scale: 2.8, rotate: 45, zIndex: 4, z: -75, delay: 0.2 },
 ];
 
 const PROJECT_7_HOVER_CONFIG = [
-    { id: 'p7-1', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 1200, y: -450, scale: 3.8, rotate: 20, zIndex: 4, z: -75, delay: 0.1 },   // Extreme Top Right
-    { id: 'p7-2', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: -400, y: 450, scale: 3.8, rotate: -20, zIndex: 4, z: -75, delay: 0.1 },  // Extreme Bottom Left
-    { id: 'p7-3', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 50, y: 150, scale: 3.0, rotate: -10, zIndex: 4, z: -75, delay: 0.2 },   // Mid Left
-    { id: 'p7-4', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 750, y: -150, scale: 3.0, rotate: 10, zIndex: 4, z: -75, delay: 0.2 },    // Mid Right
+    { id: 'p7-1', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 1200, y: -450, scale: 3.8, rotate: 20, zIndex: 4, z: -75, delay: 0.1 },   // Extreme Top Right
+    { id: 'p7-2', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: -400, y: 450, scale: 3.8, rotate: -20, zIndex: 4, z: -75, delay: 0.1 },  // Extreme Bottom Left
+    { id: 'p7-3', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 50, y: 150, scale: 3.0, rotate: -10, zIndex: 4, z: -75, delay: 0.2 },   // Mid Left
+    { id: 'p7-4', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 750, y: -150, scale: 3.0, rotate: 10, zIndex: 4, z: -75, delay: 0.2 },    // Mid Right
 ];
 
 const PROJECT_8_HOVER_CONFIG = [
-    { id: 'p8-1', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 0, y: -350, scale: 3.0, rotate: -30, zIndex: 4, z: -75, delay: 0.1 }, // Top Left
-    { id: 'p8-2', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1400, y: 350, scale: 3.0, rotate: -30, zIndex: 4, z: -75, delay: 0.1 },  // Bottom Right
-    { id: 'p8-3', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 0, y: 350, scale: 3.0, rotate: 30, zIndex: 4, z: -75, delay: 0.2 },   // Bottom Left
-    { id: 'p8-4', url: 'https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 1400, y: -350, scale: 3.0, rotate: 30, zIndex: 4, z: -75, delay: 0.2 },   // Top Right
+    { id: 'p8-1', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8A%E4%BE%A7.png', x: 0, y: -350, scale: 3.0, rotate: -30, zIndex: 4, z: -75, delay: 0.1 }, // Top Left
+    { id: 'p8-2', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E4%B8%8B%E4%BE%A7.png', x: 1400, y: 350, scale: 3.0, rotate: -30, zIndex: 4, z: -75, delay: 0.1 },  // Bottom Right
+    { id: 'p8-3', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 0, y: 350, scale: 3.0, rotate: 30, zIndex: 4, z: -75, delay: 0.2 },   // Bottom Left
+    { id: 'p8-4', url: 'https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/remain/%E5%B7%A6%E4%BE%A7.png', x: 1400, y: -350, scale: 3.0, rotate: 30, zIndex: 4, z: -75, delay: 0.2 },   // Top Right
 ];
 
 // 🔒 LOCKED DATA END --------------------------------------
@@ -334,6 +334,7 @@ const HoverCard: React.FC<{
             <img 
                 src={img} 
                 alt="Decoration" 
+                referrerPolicy="no-referrer"
                 style={{ 
                     borderRadius: borderRadius, 
                     width: '100%', 
@@ -573,6 +574,7 @@ const Project2FlipVideo: React.FC<{ config: any }> = ({ config }) => {
                         src={config.videoUrl}
                         className="w-full h-full object-cover"
                         controls
+                        crossOrigin="anonymous"
                         preload="metadata" // 🟢 OPTIMIZATION: metadata only first
                         onWaiting={() => setIsLoading(true)}
                         onCanPlay={() => setIsLoading(false)}
@@ -644,6 +646,7 @@ const AbsoluteClickableVideo: React.FC<{ url: string, scale?: number, style?: Re
                     className="w-full h-auto block"
                     loop
                     playsInline
+                    crossOrigin="anonymous"
                     preload="metadata"
                     onWaiting={() => setIsLoading(true)}
                     onCanPlay={() => setIsLoading(false)}
@@ -809,7 +812,7 @@ const FlipVideoCard: React.FC<{
 
                     {/* Image Container */}
                     <div className="absolute inset-[2px] rounded-[calc(1.5rem-2px)] overflow-hidden z-10 bg-white">
-                        <img src={item.img} alt={item.title} className="w-full h-full object-cover relative" />
+                        <img src={item.img} alt={item.title} className="w-full h-full object-cover relative" referrerPolicy="no-referrer" />
                         
                         {/* Overlay Hint */}
                         <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center backdrop-blur-[2px]">
@@ -851,6 +854,7 @@ const FlipVideoCard: React.FC<{
                         className="w-full h-full object-cover"
                         loop={false} // 🟢 Don't loop if we want to catch onEnded
                         playsInline
+                        crossOrigin="anonymous"
                         preload="metadata"
                         onWaiting={() => setIsLoading(true)}
                         onCanPlay={() => setIsLoading(false)}
@@ -974,7 +978,7 @@ const ProjectPreviewCard: React.FC<{
 
     return (
         <motion.div
-            className="absolute z-50 pointer-events-auto"
+            className="absolute z-[70] pointer-events-auto"
             style={{
                 width: customConfig.width || PREVIEW_CARD_WIDTH,
                 height: customConfig.height || PREVIEW_CARD_HEIGHT,
@@ -1020,6 +1024,7 @@ const ProjectPreviewCard: React.FC<{
                         src={project.previewBgImg || project.img} 
                         className="w-full h-full object-cover grayscale" 
                         alt="Background"
+                        referrerPolicy="no-referrer"
                     />
                 </div>
                 
@@ -1192,6 +1197,7 @@ const ProjectPreviewCard: React.FC<{
                                         src={url} 
                                         alt={toolName} 
                                         className="w-full h-full object-contain drop-shadow-sm relative z-10" 
+                                        referrerPolicy="no-referrer"
                                     />
                                 </div>
                                 </motion.div>
@@ -1251,6 +1257,7 @@ const ProjectImageSquare: React.FC<{
                         src={project.img} 
                         alt={project.title} 
                         className="w-full h-full object-cover" 
+                        referrerPolicy="no-referrer"
                     />
                     
                     {/* Overlay Tint on Hover */}
@@ -1337,14 +1344,14 @@ const GalleryModalView: React.FC<{ images: string[], projectId?: number, project
                             {/* 1. First Image */}
                             {images[0] && (
                                 <div className="w-full bg-black">
-                                    <img src={images[0]} className="w-full h-auto block" loading="lazy" decoding="async" alt="P1 Part 1" />
+                                    <img src={images[0]} className="w-full h-auto block" loading="lazy" decoding="async" alt="P1 Part 1" referrerPolicy="no-referrer" />
                                 </div>
                             )}
                             
                             {/* 2. Second Image */}
                             {images[1] && (
                                 <div className="w-full bg-black">
-                                    <img src={images[1]} className="w-full h-auto block" loading="lazy" decoding="async" alt="P1 Part 2" />
+                                    <img src={images[1]} className="w-full h-auto block" loading="lazy" decoding="async" alt="P1 Part 2" referrerPolicy="no-referrer" />
                                 </div>
                             )}
                             
@@ -1354,7 +1361,7 @@ const GalleryModalView: React.FC<{ images: string[], projectId?: number, project
                             {/* 4. Third Image */}
                             {images[2] && (
                                 <div className="w-full bg-black">
-                                    <img src={images[2]} className="w-full h-auto block" loading="lazy" decoding="async" alt="P1 Part 3" />
+                                    <img src={images[2]} className="w-full h-auto block" loading="lazy" decoding="async" alt="P1 Part 3" referrerPolicy="no-referrer" />
                                 </div>
                             )}
                         </>
@@ -1375,6 +1382,7 @@ const GalleryModalView: React.FC<{ images: string[], projectId?: number, project
                                         src={project.project2Config.phoneImage.url} 
                                         alt="Phone" 
                                         className="w-full h-auto drop-shadow-2xl"
+                                        referrerPolicy="no-referrer"
                                     />
                                 </div>
                             )}
@@ -1401,6 +1409,7 @@ const GalleryModalView: React.FC<{ images: string[], projectId?: number, project
                                             alt={`Card ${card.id}`}
                                             className="w-full h-auto block relative"
                                             loading="lazy"
+                                            referrerPolicy="no-referrer"
                                             // Animation Properties
                                             initial={{ 
                                                 opacity: shouldAnimate ? 0 : 1, 
@@ -1428,6 +1437,7 @@ const GalleryModalView: React.FC<{ images: string[], projectId?: number, project
                                         <motion.img 
                                             src={item.url}
                                             className="block h-auto"
+                                            referrerPolicy="no-referrer"
                                             style={{ 
                                                 width: item.width ? `${item.width}px` : '100%',
                                                 maxWidth: '100%'
@@ -1461,6 +1471,7 @@ const GalleryModalView: React.FC<{ images: string[], projectId?: number, project
                                         loading="lazy" 
                                         decoding="async" 
                                         alt={`Project Detail ${index + 1}`} 
+                                        referrerPolicy="no-referrer"
                                     />
                                 </div>
                             ))}
@@ -1479,6 +1490,7 @@ const GalleryModalView: React.FC<{ images: string[], projectId?: number, project
                                         <motion.img 
                                             src={item.url}
                                             className="block h-auto"
+                                            referrerPolicy="no-referrer"
                                             style={{ 
                                                 width: item.width ? `${item.width}px` : '100%',
                                                 maxWidth: '100%'
@@ -1531,6 +1543,7 @@ const GalleryModalView: React.FC<{ images: string[], projectId?: number, project
                                 <motion.img
                                     key={idx}
                                     src={item.url}
+                                    referrerPolicy="no-referrer"
                                     style={{
                                         position: 'absolute',
                                         top: `${item.y}px`,
@@ -1562,6 +1575,7 @@ const GalleryModalView: React.FC<{ images: string[], projectId?: number, project
                                 >
                                     <motion.img
                                         src={item.url}
+                                        referrerPolicy="no-referrer"
                                         style={{
                                             position: 'absolute',
                                             // User provided X is likely offset from center or absolute left, 
@@ -1648,7 +1662,7 @@ const VinylProjects: React.FC = () => {
 
     // 🟢 CHANGED: Map Vertical Scroll to Horizontal Movement (floorX)
     // Scroll [0, 1] maps to [0%, -300%] (Move Left)
-    const floorX = useTransform(scrollYProgress, [0, 1], ["5%", "-300%"]);
+    const floorX = useTransform(scrollYProgress, [0, 1], ["10%", "-350%"]);
     
     // Performance: springs
     const x = useMotionValue(0);
@@ -1745,13 +1759,13 @@ const VinylProjects: React.FC = () => {
              >
                  <div className="absolute inset-0 flex items-center justify-center perspective-2000">
                     <motion.div
-                        className="relative w-full max-w-[1600px] will-change-transform transform-gpu"
+                        className="relative w-full will-change-transform transform-gpu"
                         style={{
                             scale: PROJECTS_SCALE, // 🟢 APPLIED GLOBAL SCALE
                             rotateX,
                             rotateY,
                             x: translateX,
-                            aspectRatio: '16/9',
+                            aspectRatio: '21/9', // 🟢 WIDER ASPECT RATIO FOR BETTER SCROLLING
                             transformStyle: "preserve-3d",
                         }}
                     >
@@ -1775,6 +1789,7 @@ const VinylProjects: React.FC = () => {
                                     key={img.id}
                                     src={img.url}
                                     className="absolute pointer-events-none drop-shadow-2xl"
+                                    referrerPolicy="no-referrer"
                                     style={{
                                         zIndex: img.zIndex, // 🟢 Updated Z-Index
                                         transformStyle: "preserve-3d",
@@ -1829,6 +1844,7 @@ const VinylProjects: React.FC = () => {
                                         key={img.id}
                                         src={img.url}
                                         className="absolute pointer-events-none drop-shadow-2xl"
+                                        referrerPolicy="no-referrer"
                                         style={{
                                             zIndex: img.zIndex, 
                                             transformStyle: "preserve-3d",
@@ -1894,8 +1910,8 @@ const VinylProjects: React.FC = () => {
                                 style={{ top: '5%', left: '0%' }}
                             />
 
-                            {/* 🟢 UPDATED: Raised zIndex to 60 to be above RightPreviewCard */}
-                            <div className="absolute w-full h-full pointer-events-none" style={{ zIndex: 60, transformStyle: "preserve-3d", transform: `translateZ(${DEPTHS.PROJECTS}px)` }}>
+                            {/* 🟢 UPDATED: Lowered zIndex to 50 to be BELOW ProjectPreviewCard */}
+                            <div className="absolute w-full h-full pointer-events-none" style={{ zIndex: 50, transformStyle: "preserve-3d", transform: `translateZ(${DEPTHS.PROJECTS}px)` }}>
                                 {PROJECTS_DATA.map((proj, idx) => (
                                     <div key={proj.id} className="pointer-events-auto">
                                         <ProjectImageSquare 
@@ -1970,7 +1986,7 @@ const VinylProjects: React.FC = () => {
                                         {/* Reduced Header Height */}
                                         <div className="relative w-full h-[35vh] md:h-[40vh] bg-gray-100 flex items-center justify-center overflow-hidden">
                                             {selectedProject.img ? (
-                                                <img src={selectedProject.img} className="w-full h-full object-cover" decoding="async" alt="Project Hero" />
+                                                <img src={selectedProject.img} className="w-full h-full object-cover" decoding="async" alt="Project Hero" referrerPolicy="no-referrer" />
                                             ) : (
                                                 <div className="text-gray-400 font-bold tracking-widest text-xs">[ IMAGE CONTAINER ]</div>
                                             )}

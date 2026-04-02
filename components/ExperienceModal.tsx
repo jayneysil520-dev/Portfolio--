@@ -194,7 +194,7 @@ const SpotlightRow: React.FC<{
 const ExperienceModal: React.FC<ExperienceModalProps> = ({ isOpen, onClose }) => {
   const [selectedItem, setSelectedItem] = useState<ExperienceItem | null>(null);
   // 🇨🇳 CHINA OPTIMIZATION: Replaced Unsplash URL with jsDelivr mirror asset
-  const [photoUrl, setPhotoUrl] = useState<string>("https://jsd.cdn.zzko.cn/gh/jayneysil520-dev/jayneysil@main/Group%20508.png");
+  const [photoUrl, setPhotoUrl] = useState<string>("https://fastly.jsdelivr.net/gh/jayneysil520-dev/jayneysil@main/Group%20508.png");
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -244,7 +244,7 @@ const ExperienceModal: React.FC<ExperienceModalProps> = ({ isOpen, onClose }) =>
                             onClick={() => fileInputRef.current?.click()}
                          >
                             <input type="file" ref={fileInputRef} className="hidden" accept="image/*" onChange={handleFileChange} />
-                            <img src={photoUrl} alt="Profile" className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" />
+                            <img src={photoUrl} alt="Profile" className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" referrerPolicy="no-referrer" />
                             
                             {/* Inner Border/Highlight */}
                             <div className="absolute inset-0 border border-white/20 rounded-[2rem] pointer-events-none" />
